@@ -26,3 +26,7 @@ i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
 
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/IA-SPGEMM-CPU_release/1.jpg"/>
 
+**NVIDIA GPU**
+
+<img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/IA-SPGEMM-GPU_release/2.jpg"/>
+
