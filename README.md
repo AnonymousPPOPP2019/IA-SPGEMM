@@ -18,8 +18,18 @@ In IA-SPGEMM system, the goal is to search an optimal format and algorithm that 
 
 Setting up an IA-SPGEMM is easy.
 
+(1) run SpGEMM code on CPU with auto-tuning in double precision  
 ```bash
-i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
+cd ./IA-SPGEMM-CPU_release;
+make;
+./spgemm-cpu Inputs/dia.mtx
+```
+
+(2) run SpGEMM code on GPU with auto-tuning in double precision  
+```bash
+cd ./IA-SPGEMM-GPU_release;
+make;
+./spgemm-gpu Inputs/dia.mtx
 ```
 
 **Intel & AMD CPU example**
@@ -40,4 +50,8 @@ i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
 
 ## MatNet
 Details of the neural network
+Weights are in IA-SPGEMM-CPU_release/NetWeights and IA-SPGEMM-GPU_release/NetWeights
+MatNet structure is below:
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/model.png"/>
+
+
