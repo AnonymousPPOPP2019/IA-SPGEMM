@@ -22,14 +22,14 @@ Setting up an IA-SPGEMM is easy.
 ```bash
 cd ./IA-SPGEMM-CPU_release;
 make;
-./spgemm-cpu Inputs/dia.mtx
+./spgemm-cpu Inputs/dia.mtx;
 ```
 
 (2) run SpGEMM code on GPU with auto-tuning in double precision  
 ```bash
 cd ./IA-SPGEMM-GPU_release;
 make;
-./spgemm-gpu Inputs/dia.mtx
+./spgemm-gpu Inputs/dia.mtx;
 ```
 
 **Intel & AMD CPU example**
@@ -50,8 +50,11 @@ make;
 
 ## MatNet
 Details of the neural network
+
 Weights are in IA-SPGEMM-CPU_release/NetWeights and IA-SPGEMM-GPU_release/NetWeights
+
 MatNet structure is below:
+
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/model.png"/>
 
 
