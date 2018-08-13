@@ -22,11 +22,18 @@ Setting up an IA-SPGEMM is easy.
 i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
 ```
 
-**Intel & AMD CPU**
+**Intel & AMD CPU example**
 
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/IA-SPGEMM-CPU_release/1.jpg"/>
 
-**NVIDIA GPU**
+**NVIDIA GPU example**
 
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/IA-SPGEMM-GPU_release/2.jpg"/>
 
+## Requirement
+- Intel MKL 2018
+- CUSP v0.5.1
+- cuSPARSE v8.0
+- Python 3.5.2
+- tensorflow 1.4.0
+- keras 2.1.0
