@@ -37,3 +37,7 @@ i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
 - Python 3.5.2
 - tensorflow 1.4.0
 - keras 2.1.0
+
+## MatNet
+Details of the neural network
+<img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/model.png"/>
