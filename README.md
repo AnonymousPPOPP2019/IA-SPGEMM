@@ -41,4 +41,3 @@ i.e., ./IA-SPGEMM-CPU_release/spgemm-cpu ./IA-SPGEMM-CPU_release/Inputs/dia.mtx
 ## MatNet
 Details of the neural network
 <img src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/model.png"/>
-<div align=center><img width="150" height="150" src="https://github.com/AnonymousPPOPP2019/IA-SPGEMM/blob/master/model.png"/></div>
