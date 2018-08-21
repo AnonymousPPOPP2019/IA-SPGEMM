@@ -3,7 +3,7 @@
 IA-SPGEMM is a An Input Auto-tuning Sparse General Matrix-Matrix Multiplication on Multicore and Manycore Architure. Currently
 supported co include:
 
-- SpGEMM algorithms for COO, DIA and ELL sparse storage formats
+- SpGEMM algorithms for COO, DIA and ELL sparse storage format
 - Feature extraction and density representation
 - MatNet (mix CNN and BP)
 
